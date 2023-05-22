@@ -9,8 +9,13 @@ Several of these directories may contain a README file with more specific inform
 
     .
     ├── benchmark
+    ├── cicd/github-runner
+    ├── configure
+    ├── demoData
+    ├── docker
+    ├── docs
+    ├── scripts
     ├── build
-    ├── doc
     ├── src
     ├────── binfhe
     ├────── core
@@ -24,8 +29,13 @@ The descriptions of library components are as follows:
    :header: "Directory", "Description"
 
    "benchmark","Code for benchmarking OpenFHE library components, using the Google Benchmark frameworks"
+   "cicd/github-runner",""
+   "configure",""
+   "demoData",""
+   "docker",""
+   "docs","Documentation of library components."
+   "scripts",""
    "build","Binaries and build scripts (this folder is created by the user)"
-   "doc","Documentation of library components."
    "docker","Docker file and documentation."
    "src","Library source code. Each subcomponent has four or five subdirectories: include (for library header files), lib (for library source files), unittest (for google test cases), examples (for code samples), and optionally extras (for additional code samples)."
    "third-party","Code for distributions from third parties (includes NTL/GMP + git submodules for tcmalloc, cereal, google test, and google benchmark)"
